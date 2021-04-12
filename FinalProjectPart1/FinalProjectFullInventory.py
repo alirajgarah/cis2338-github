@@ -21,9 +21,9 @@ class RequiredOutput:
                 typeof_item = inventoryitems[item]['typeof_item']
                 price_ofitem = inventoryitems[item]['price_ofitem']
                 date_ofservice = inventoryitems[item]['date_ofservice']
-                if_damaged = inventoryitems[item]['list_ifdamaged']
+                list_ifdamaged = inventoryitems[item]['list_ifdamaged']
                 #### writes file with id, name, type, price,  and damaged or not ####
-                file.write('{},{},{},{},{},{}\n\n'.format(id, manufacturer_name, typeof_item, price_ofitem, date_ofservice, if_damaged))
+                file.write('{},{},{},{},{},{}\n\n'.format(id, manufacturer_name, typeof_item, price_ofitem, date_ofservice, list_ifdamaged))
 
 
 
