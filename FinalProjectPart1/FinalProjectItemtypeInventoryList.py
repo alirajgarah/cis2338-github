@@ -20,7 +20,7 @@ class RequiredOutput:
                 types.append(type_ofitem)
         for type in types:
             file_name = type.capitalize() + 'Inventory.csv'
-            with open('./output_files/' + file_name, 'w') as file:
+            with open(r'.\Users\alira\Downloads\LaptopInventory.csv' + file_name, 'w') as file:
                 for item in keys:
 
                     id = item
