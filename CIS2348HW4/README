@@ -1,0 +1,9 @@
+These are the 4 assignments from Zybooks for Homework 4. 
+
+The first assignment: 12.7 calculates fat burning percentage rate. If the age is not between a certain value, it raises a ValueError exception.
+
+The second assignment: 12.9 reads a list of single-word first names and ages (ending with -1), and outputs that list with the age incremented. The program fails and throws an exception if the second input on a line is a string rather than an integer.
+
+The third assignment: 14.11 writes the function selection_sort_descend_trace() that takes an integer list and sorts the list into descending order. 
+
+The fourth assignment: 14.13 reads user IDs and increments the global variable num_calls in quicksort() to keep track of how many times quicksort() is called. 
