@@ -1,3 +1,5 @@
+#Ali Rajgarah 1586471
+
 def selection_sort_descend_trace(int_list):
     for i in range(len(int_list)-1):
         lnumbers = i
